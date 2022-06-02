@@ -47,7 +47,6 @@
     "drupal/username_enumeration_prevention": "^1.2",
     "drush/drush": "^10",
     "joachim-n/composer-manifest": "^1",
-    "pantheon-systems/drupal-integrations": "^9.0",
     "rvtraveller/qs-composer-installer": "^1.2",
     "vlucas/phpdotenv": "^4.0",
     "webmozart/path-util": "^2.3"
