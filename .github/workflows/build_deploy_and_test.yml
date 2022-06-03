@@ -120,6 +120,8 @@ jobs:
         with:
           node-version: 14
       - run: cd web/themes/gesso
+      - run: npm -v
+      - run: echo $PWD
       - run: npm ci
       - run: npm run build-storybook
       - run: rm -rf node_modules
