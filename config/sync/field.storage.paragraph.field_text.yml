@@ -1,21 +1,12 @@
-<<<<<<<< HEAD:config/sync/field.storage.paragraph.field_text.yml
 uuid: 38547cce-f2e6-4ebd-875e-85d6818e42cf
-========
-uuid: 6ba48986-e473-4f4c-9c3c-df5dfc952eb1
->>>>>>>> SLAC22-175-Promo-Box-paragraph:config/sync/field.storage.paragraph.field_button_link.yml
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
     - text
-<<<<<<<< HEAD:config/sync/field.storage.paragraph.field_text.yml
 id: paragraph.field_text
 field_name: field_text
-========
-id: paragraph.field_button_link
-field_name: field_button_link
->>>>>>>> SLAC22-175-Promo-Box-paragraph:config/sync/field.storage.paragraph.field_button_link.yml
 entity_type: paragraph
 type: text
 settings:
