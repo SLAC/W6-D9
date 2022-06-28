@@ -68,7 +68,7 @@
         - vid: 'tags'
           name: 'Partnerships'
 - entity: "taxonomy_term"
-  vid: 'tags'
+  vid: "tags"
   name: "Technology Transfer"
   parent:
   - '#process':
@@ -389,6 +389,16 @@
           name: 'Science News'
 - entity: "taxonomy_term"
   vid: "tags"
+  name: "Neutrinos"
+  parent:
+  - '#process':
+      callback: 'reference'
+      args:
+        - 'taxonomy_term'
+        - vid: 'tags'
+          name: 'Science News'
+- entity: "taxonomy_term"
+  vid: "tags"
   name: "Particle Physics"
   parent:
   - '#process':
@@ -409,7 +419,7 @@
           name: 'Science News'
 - entity: "taxonomy_term"
   vid: "tags"
-  name: "Plasma Wakefield Acceleratio"
+  name: "Plasma Wakefield Acceleration"
   parent:
   - '#process':
       callback: 'reference'
@@ -430,6 +440,16 @@
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Quantum Materials"
+  parent:
+  - '#process':
+      callback: 'reference'
+      args:
+        - 'taxonomy_term'
+        - vid: 'tags'
+          name: 'Science News'
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Quantum Physics"
   parent:
   - '#process':
       callback: 'reference'
@@ -487,16 +507,16 @@
         - 'taxonomy_term'
         - vid: 'tags'
           name: 'Science News'
-- entity: "taxonomy_term"
-  vid: "tags"
-  name: "Sustainability"
-  parent:
-  - '#process':
-      callback: 'reference'
-      args:
-        - 'taxonomy_term'
-        - vid: 'tags'
-          name: 'Science News'
+# - entity: "taxonomy_term"
+#   vid: "tags"
+#   name: "Sustainability"
+#   parent:
+#   - '#process':
+#       callback: 'reference'
+#       args:
+#         - 'taxonomy_term'
+#         - vid: 'tags'
+#           name: 'Science News'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Ultrafast Electron Diffraction (UED)"
@@ -576,7 +596,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Acceleration'
+          name: 'Accelerators'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Accelerator Operations & Safety"
@@ -586,7 +606,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Acceleration'
+          name: 'Accelerators'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "FACET"
@@ -596,7 +616,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Acceleration'
+          name: 'Accelerators'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "FACET-II"
@@ -606,7 +626,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Acceleration'
+          name: 'Accelerators'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "LHC Accelerator R&D"
@@ -616,7 +636,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Acceleration'
+          name: 'Accelerators'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Linear Collider R&D"
@@ -626,7 +646,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Acceleration'
+          name: 'Accelerators'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Next Linear Collider Test Accelerator (NLCTA)"
@@ -636,7 +656,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Acceleration'
+          name: 'Accelerators'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Applied Energy"
@@ -646,7 +666,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Energy Science'    
+          name: 'Energy Sciences'    
 - entity: "taxonomy_term"
   vid: "tags"
   name: "GISMo"
@@ -656,7 +676,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Energy Science'
+          name: 'Energy Sciences'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Stanford PULSE Institute"
@@ -666,7 +686,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Energy Science'
+          name: 'Energy Sciences'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "SUNCAT Center for Interface Science and Catalysis"
@@ -676,7 +696,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Energy Science'
+          name: 'Energy Sciences'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Stanford Institute for Materials & Energy Sciences (SIMES)"
@@ -686,7 +706,7 @@
       args:
         - 'taxonomy_term'
         - vid: 'tags'
-          name: 'Energy Science'
+          name: 'Energy Sciences'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Q-NEXT"
@@ -1320,6 +1340,16 @@
 - entity: "taxonomy_term"
   vid: "tags"
   name: "SLAC Science & Society"
+  parent:
+  - '#process':
+      callback: 'reference'
+      args:
+        - 'taxonomy_term'
+        - vid: 'tags'
+          name: 'SLAC Community & Careers'
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "SLAC People"
   parent:
   - '#process':
       callback: 'reference'

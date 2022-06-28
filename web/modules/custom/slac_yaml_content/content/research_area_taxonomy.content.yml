@@ -15,9 +15,7 @@
   name: "Science of Life"
 - entity: "taxonomy_term"
   vid: "research_area"
-  name: "New Technologies"
-
-  
+  name: "New Technologies"  
 - entity: "taxonomy_term"
   vid: "research_area"
   name: "Medicine"
@@ -38,16 +36,6 @@
         - 'taxonomy_term'
         - vid: 'research_area'
           name: 'X-ray and Ultrafast Science'
-  - entity: "taxonomy_term"
-    vid: "research_area"
-    name: "Life's Secrets"
-    parent:
-  - '#process':
-      callback: 'reference'
-      args:
-        - 'taxonomy_term'
-        - vid: 'research_area'
-          name: 'X-ray and Ultrafast Science'
 - entity: "taxonomy_term"
   vid: "research_area"
   name: "Clean Energy"
@@ -56,7 +44,17 @@
       callback: 'reference'
       args:
         - 'taxonomy_term'
-        - vid: 'research-area'
+        - vid: 'research_area'
+          name: 'X-ray and Ultrafast Science'
+- entity: "taxonomy_term"
+  vid: "research_area"
+  name: "Life's Secrets"
+  parent:
+  - '#process':
+      callback: 'reference'
+      args:
+        - 'taxonomy_term'
+        - vid: 'research_area'
           name: 'X-ray and Ultrafast Science'
 - entity: "taxonomy_term"
   vid: "research_area"
@@ -86,7 +84,7 @@
       callback: 'reference'
       args:
         - 'taxonomy_term'
-        - vid: 'reasearch_area'
+        - vid: 'research_area'
           name: 'Physics of the Universe'
 - entity: "taxonomy_term"
   vid: "research_area"
@@ -176,7 +174,7 @@
       callback: 'reference'
       args:
         - 'taxonomy_term'
-        - vid: 'reasearch_area'
+        - vid: 'research_area'
           name: 'Energy Science'
 - entity: "taxonomy_term"
   vid: "research_area"
@@ -186,7 +184,7 @@
       callback: 'reference'
       args:
         - 'taxonomy_term'
-        - vid: 'research'
+        - vid: 'research_area'
           name: 'Science of Life'
 - entity: "taxonomy_term"
   vid: "research_area"
@@ -208,7 +206,7 @@
         - 'taxonomy_term'
         - vid: 'research_area'
           name: 'Science of Life'
-- entity: 'taxonomy_term'
+- entity: "taxonomy_term"
   vid: "research_area"
   name: "Quantum Information Science (QIS)"
   parent:
@@ -216,7 +214,7 @@
       callback: 'reference'
       args:
         - 'taxonomy_term'
-        - vid: 'taxonomy_term'
+        - vid: 'research_area'
           name: 'New Technologies'
 - entity: "taxonomy_term"
   vid: "research_area"
