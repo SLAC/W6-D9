@@ -87,16 +87,16 @@
         - 'taxonomy_term'
         - vid: 'tags'
           name: 'Partnerships'
-# - entity: "taxonomy_term"
-#   vid: "tags"
-#   name: "A.I. and Machine Learning"
-#   parent:
-#   - '#process':
-#       callback: 'reference'
-#       args:
-#         - 'taxonomy_term'
-#         - vid: 'tags'
-#           name: 'Science News'
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "A.I. and Machine Learning"
+  parent:
+  - '#process':
+      callback: 'reference'
+      args:
+        - 'taxonomy_term'
+        - vid: 'tags'
+          name: 'Science News'
 # - entity: "taxonomy_term"
 #   vid: "tags"
 #   name: "Accelerator Science"
@@ -939,16 +939,16 @@
         - 'taxonomy_term'
         - vid: 'tags'
           name: 'Fundamental Physics'
-- entity: "taxonomy_term"
-  vid: "tags"
-  name: "Linac Coherent Light Source (LCLS)"
-  parent:
-  - '#process':
-      callback: 'reference'
-      args:
-        - 'taxonomy_term'
-        - vid: 'tags'
-          name: 'X-ray Light Sources and Electron Imaging'
+# - entity: "taxonomy_term"
+#   vid: "tags"
+#   name: "Linac Coherent Light Source (LCLS)"
+#   parent:
+#   - '#process':
+#       callback: 'reference'
+#       args:
+#         - 'taxonomy_term'
+#         - vid: 'tags'
+#           name: 'X-ray Light Sources and Electron Imaging'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "LCLS Macromolecular Femtosecond Crystallography (MFX)"
@@ -1023,12 +1023,12 @@
 #   vid: "tags"
 #   name: "LCLS Ultrafast Science Instruments (LUSI)"
 #   parent:
-#   - '#process':
-#       callback: 'reference'
+#   - "#process":
+#       callback: "reference"
 #       args:
-#         - 'taxonomy_term'
-#         - vid: 'tags'
-#           name: 'X-ray Light Sources and Electron Imaging'
+#         - "taxonomy_term"
+#         - vid: "tags"
+#           name: "X-ray Light Sources and Electron Imaging"
 # - entity: "taxonomy_term"
 #   vid: "tags"
 #   name: "LCLS-II"
@@ -1059,16 +1059,16 @@
 #         - 'taxonomy_term'
 #         - vid: 'tags'
 #           name: 'X-ray Light Sources and Electron Imaging'
-- entity: "taxonomy_term"
-  vid: "tags"
-  name: "Stanford Synchrotron Radiation Lightsource (SSRL)"
-  parent:
-  - '#process':
-      callback: 'reference'
-      args:
-        - 'taxonomy_term'
-        - vid: 'tags'
-          name: 'X-ray Light Sources and Electron Imaging'
+# - entity: "taxonomy_term"
+#   vid: "tags"
+#   name: "Stanford Synchrotron Radiation Lightsource (SSRL)"
+#   parent:
+#   - '#process':
+#       callback: 'reference'
+#       args:
+#         - 'taxonomy_term'
+#         - vid: 'tags'
+#           name: 'X-ray Light Sources and Electron Imaging'
 # - entity: "taxonomy_term"
 #   vid: "tags"
 #   name: "PEP-X"
@@ -1089,16 +1089,16 @@
 #         - 'taxonomy_term'
 #         - vid: 'tags'
 #           name: 'X-ray Light Sources and Electron Imaging'
-# - entity: "taxonomy_term"
-#   vid: "tags"
-#   name: "Future Light Sources"
-#   parent:
-#   - '#process':
-#       callback: 'reference'
-#       args:
-#         - 'taxonomy_term'
-#         - vid: 'tags'
-#           name: 'X-ray Light Sources and Electron Imaging'
+- entity: "taxonomy_term"
+  vid: "tags"
+  name: "Future Light Sources"
+  parent:
+  - '#process':
+      callback: 'reference'
+      args:
+        - 'taxonomy_term'
+        - vid: 'tags'
+          name: 'X-ray Light Sources and Electron Imaging'
 - entity: "taxonomy_term"
   vid: "tags"
   name: "Data, Controls, Scientific Computing Systems"
