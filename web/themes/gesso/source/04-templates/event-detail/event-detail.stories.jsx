@@ -23,27 +23,19 @@ const visitingText = `
   <p>Nunc interdum lacinia felis ultricies sodales. Curabitur tortor tortor, commodo a porta et, dignissim a nunc. Integer efficitur eleifend posuere.</p>
   <p>Cras dui lectus, aliquam posuere sagittis a, sollicitudin ac nunc. Etiam finibus urna et arcu venenatis, sit amet molestie sapien laoreet. Nam maximus lectus non augue faucibus, eget iaculis ligula ultricies. Nam sed libero augue. Aenean sed tempor dui. Etiam dignissim erat ac nibh tempus, non aliquet ipsum semper. Nulla venenatis bibendum purus id varius. Proin ligula orci, lobortis et tristique aliquet, sodales quis odio.</p>`;
 
-const visitingButton1 = ReactDOMServer.renderToStaticMarkup(
-  <>
-    {Primary({
-      is_demo: false,
-      text: 'Site Entry Information',
-      url: '#',
-      modifier_classes: 'c-button--chevron',
-    })}
-  </>
-);
+const visitingButton1 = ReactDOMServer.renderToStaticMarkup(<>{Primary({
+  is_demo: false,
+  text: 'Site Entry Information',
+  url: '#',
+  modifier_classes: 'c-button--chevron',
+})}</>);
 
-const visitingButton2 = ReactDOMServer.renderToStaticMarkup(
-  <>
-    {Primary({
-      is_demo: false,
-      text: 'Maps & Directions',
-      url: '#',
-      modifier_classes: 'c-button--chevron',
-    })}
-  </>
-);
+const visitingButton2 = ReactDOMServer.renderToStaticMarkup(<>{Primary({
+  is_demo: false,
+  text: 'Maps & Directions',
+  url: '#',
+  modifier_classes: 'c-button--chevron',
+})}</>);
 
 const FiftyFiftyargs = {
   col_1: ReactDOMServer.renderToStaticMarkup(
