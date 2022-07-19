@@ -24,7 +24,6 @@ dependencies:
     - field.field.node.event.field_tags
     - field.field.node.event.field_teaser
     - field.field.node.event.field_text
-    - field.field.node.event.field_type
     - field.field.node.event.field_video
     - node.type.event
   module:
@@ -222,14 +221,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 102
-    region: content
-  field_type:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 124
     region: content
   field_video:
     type: entity_reference_entity_view
