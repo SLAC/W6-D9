@@ -4,7 +4,7 @@ on:
     branches:
       - integration
       - main
-      - live
+      - master
 defaults:
   run:
     shell: bash
