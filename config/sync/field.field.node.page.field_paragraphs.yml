@@ -8,7 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.accordion_item
     - paragraphs.paragraphs_type.article_hero
     - paragraphs.paragraphs_type.card
-    - paragraphs.paragraphs_type.embed_view
+    - paragraphs.paragraphs_type.content_card
     - paragraphs.paragraphs_type.image_carousel
     - paragraphs.paragraphs_type.image_hero
     - paragraphs.paragraphs_type.media_card
@@ -38,7 +38,7 @@ settings:
       accordion_item: accordion_item
       article_hero: article_hero
       card: card
-      embed_view: embed_view
+      content_card: content_card
       image_carousel: image_carousel
       image_hero: image_hero
       media_card: media_card
@@ -71,7 +71,7 @@ settings:
         enabled: false
       content_card:
         weight: -65
-        enabled: false
+        enabled: true
       content_embed:
         weight: -64
         enabled: false
@@ -83,7 +83,7 @@ settings:
         enabled: false
       embed_view:
         weight: -60
-        enabled: true
+        enabled: false
       extra_large_card:
         weight: -61
         enabled: false
