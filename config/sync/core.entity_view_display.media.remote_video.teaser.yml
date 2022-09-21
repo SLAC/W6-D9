@@ -10,6 +10,7 @@ dependencies:
     - field.field.media.remote_video.field_credit
     - field.field.media.remote_video.field_display_style
     - field.field.media.remote_video.field_duration
+    - field.field.media.remote_video.field_internal_tags
     - field.field.media.remote_video.field_landing_display
     - field.field.media.remote_video.field_link
     - field.field.media.remote_video.field_long_text
@@ -39,7 +40,7 @@ content:
       custom_date_format: ''
       timezone: ''
     third_party_settings: {  }
-    weight: 5
+    weight: 6
     region: content
   field_body:
     type: trimmed_first_wysiwyg_paragraph
@@ -58,7 +59,7 @@ content:
       more_text: More
       summary_handler: full
     third_party_settings: {  }
-    weight: 6
+    weight: 5
     region: content
   field_boolean:
     type: boolean
@@ -68,14 +69,14 @@ content:
       format_custom_false: ''
       format_custom_true: ''
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
   field_duration:
     type: duration_time_display
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 8
+    weight: 7
     region: content
   field_long_text:
     type: text_default
@@ -84,19 +85,24 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  field_source_name:
-    type: text_default
+  field_teaser:
+    type: trimmed_first_wysiwyg_paragraph
     label: hidden
-    settings: {  }
+    settings:
+      trim_length: '40'
+      trim_type: words
+      trim_suffix: ...
+      trim_options:
+        heading_remove: heading_remove
+        retain_formatting: retain_formatting
+      wrap_output: 0
+      wrap_class: trimmed
+      more_link: 0
+      more_class: more-link
+      more_text: More
+      summary_handler: full
     third_party_settings: {  }
     weight: 4
-    region: content
-  field_teaser:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 7
     region: content
   field_thumbnail:
     type: entity_reference_entity_view
@@ -113,17 +119,19 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 0
     region: content
 hidden:
   field_caption: true
   field_credit: true
   field_display_style: true
+  field_internal_tags: true
   field_landing_display: true
   field_link: true
   field_media_oembed_video: true
   field_paragraphs: true
   field_research_area: true
+  field_source_name: true
   field_tags: true
   field_transcript: true
   langcode: true

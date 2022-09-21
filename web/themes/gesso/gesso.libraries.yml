@@ -8,6 +8,7 @@ global:
     dist/js/external-link.es6.js: {}
     dist/js/header.es6.js: {}
     dist/js/transitions.es6.js: {}
+    dist/js/embed.es6.js: {}
   dependencies:
     - gesso/common
     - core/drupal
@@ -229,6 +230,16 @@ toc:
     dist/js/toc.es6.js: {}
   dependencies:
     - gesso/common
+
+topic_grid:
+  css:
+    theme:
+      dist/css/topic-grid.css: {}
+  js:
+    dist/js/topic-grid.es6.js: {}
+  dependencies:
+    - gesso/common
+    - core/drupal
 
 tooltip:
   css:

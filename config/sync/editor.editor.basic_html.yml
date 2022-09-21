@@ -29,6 +29,8 @@ settings:
       - redo
       - removeFormat
       - '|'
+      - drupalMedia
+      - '|'
       - sourceEditing
       - '-'
   plugins:
@@ -85,9 +87,12 @@ settings:
         - '<h5 id>'
         - '<h6 id>'
         - '<img src alt height width data-entity-type data-entity-uuid data-align data-caption>'
+        - '<div class name id>'
     ckeditor5_list:
       reversed: false
       startIndex: true
+    media_media:
+      allow_view_mode_override: false
 image_upload:
   status: true
   scheme: public
