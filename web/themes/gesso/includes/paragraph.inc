@@ -52,6 +52,9 @@ function gesso_preprocess_paragraph__section(&$vars) {
           }
         }
       }
+      if (str_contains($class, 'l-section--rss')) {
+        $vars['is_rss'] = TRUE;
+      }
     }
   }
   $vars['content'] = $content;
@@ -141,8 +144,8 @@ function _gesso_set_hero_caption(&$vars) {
       break;
     // See template field--paragraph--field-long-text--image-embed.html.twig for caption processing.
     case 'image_embed':
-      $paragraph_caption = !empty($paragraph->field_long_text[0]) ? $paragraph->field_long_text[0]->view('two_column_hero') : NULL;
-      $vars['hero_caption'] = $paragraph_caption ?: (!empty($image->field_caption[0]) ? $image->field_caption->view('two_column_hero') : NULL);
+      $paragraph_caption = !empty($paragraph->field_long_text[0]) && $paragraph->field_boolean->value ? $paragraph->field_long_text[0]->view('two_column_hero') : NULL;
+      $vars['hero_caption'] = $paragraph_caption ?: (!empty($image->field_caption[0]) ? $image->field_caption->view() : NULL);
       break;
     // See template field--paragraph--field-long-text--overlap-image.html.twig for caption processing.
     case 'overlap_image':
