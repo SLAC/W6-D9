@@ -268,7 +268,7 @@ display:
         type: some
         options:
           offset: 0
-          items_per_page: 30
+          items_per_page: 40
       filters:
         status:
           id: status
