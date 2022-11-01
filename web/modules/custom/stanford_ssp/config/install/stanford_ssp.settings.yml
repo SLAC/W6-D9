@@ -1,7 +1,0 @@
-saml_attribute: eduPersonEntitlement
-hide_local_login: true
-restriction: all
-allowed:
-  affiliations: {  }
-  groups: {  }
-  users: {  }
