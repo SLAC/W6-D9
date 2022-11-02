@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62c7480867bdba95ac57584b795ec52b",
+    "content-hash": "9e768e0279bd9dbbc648d9f264032653",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -21242,8 +21242,7 @@
         "drupal/views_rss": 5,
         "drupal/viewsreference": 10,
         "drupal/yaml_content": 15,
-        "pantheon-upstreams/upstream-configuration": 20,
-        "slac/w6_d9_saml": 20
+        "pantheon-upstreams/upstream-configuration": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
